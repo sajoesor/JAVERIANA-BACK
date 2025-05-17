@@ -51,7 +51,11 @@ export const responderPregunta = async (req, res) => {
      Capacidad: ${s.capacidad}, 
      Piso: ${s.piso}, 
      Edificio: ${s.edificio}, 
-     Equipamiento: ${s.equipamiento_tecnológico || "N/A"}`,
+     Equipamiento: ${s.equipamiento_tecnológico || "N/A"},
+     Tomacorriente: ${s.tomacorriente || "N/A"},
+     Movilidad: ${s.movilidad},
+     Entorno: ${s.entorno},`,
+    
   ).join('\n');
   
   
