@@ -52,7 +52,7 @@ export const responderPregunta = async (req, res) => {
      Piso: ${s.piso}, 
      Edificio: ${s.edificio}, 
      Equipamiento: ${s.equipamiento_tecnológico || "N/A"},
-     Tomacorriente: ${s.tomacorriente || "N/A"},
+     Tomacorriente: ${s.tomacorriente|| "N/A"},
      Movilidad: ${s.movilidad},
      Entorno: ${s.entorno},`,
     
