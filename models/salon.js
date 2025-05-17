@@ -1,18 +1,18 @@
 import mongoose from 'mongoose';
 
 const salonSchema = new mongoose.Schema({
-  Salón: String,
+  salón: String,
   edificio: String,
   piso: Number,
   capacidad: Number,
   puestos_contados: Number,
-  Tipo_de_Aula: String,
-  Tipo_de_mesa: String,
-  Tipo_de_silla: String,
-  Tipo_de_tablero: String,
-  Equipamiento_Tecnologico : String,
-  Tomacorriente: String,
-  Movilidad: String,
+  tipo_de_Aula: String,
+  tipo_de_mesa: String,
+  tipo_de_silla: String,
+  tipo_de_tablero: String,
+  equipamiento_Tecnologico : String,
+  tomacorriente: String,
+  movilidad: String,
   entorno: String,
   imagen_s3: String 
 });
